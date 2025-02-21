@@ -1,13 +1,27 @@
 # csh
 
-A basic shell written to learn the ins and outs of C
+A basic shell written to learn the ins and outs of C by over-commenting every
+single thing to truly understand how it works
 
 ## Goals
 
-- [ ] Basic navigation (cd, ls)
-- [ ] Creating/deleting directories
-- [ ] `touch` to create files
-- [ ] Execute and run programs
+- [ ] Command history - `history`
+  - [ ] Navigate w/ arrow keys
+    - [ ] Navigate current line with Left/Right
+- [ ] Creating command aliases - 'alias'
+- [ ] Set env variables - `export`
+- [ ] Tab completion
+  - [ ] Files
+  - [ ] Commands
+
+### More Advanced
+
+- [ ] Pipe support - `cmd1 | cmd2`
+- [ ] Input/Output redirection - `>, <, >>`
+- [ ] Job control
+  - [ ] `fg`
+  - [ ] `bg`
+  - [ ] `jobs`
 
 ## Acknowledgment
 
